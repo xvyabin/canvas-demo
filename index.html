@@ -11,11 +11,33 @@
 <body>
   <canvas id="xxx" width=300 height=300></canvas>
   <div id=actions class="actions">
-    <button id=eraser>橡皮擦</button>
-    <button id=brush>画笔</button>
+    <svg class="icon" id="pen" aria-hidden="true">
+    <use xlink:href="#icon-pen"></use>
+    </svg>
+    <svg class="icon active" id="eraser" aria-hidden="true">
+    <use xlink:href="#icon-Eraser-Tool"></use>
+    </svg>
+    <svg class="icon clear" id="clear" aria-hidden="true">
+    <use xlink:href="#icon-clear"></use>
+   </svg>
+   <svg class="icon cave" id="cave" aria-hidden="true">
+    <use xlink:href="#icon-save"></use>
+   </svg>
+  </div>
+  <div>
+  	<ol class="colors">
+  		<li id="red" class="red"></li>		
+  		<li id="green" class="green"></li>		
+  		<li id="blue" class="blue"></li>		
+  	</ol>
+  	<ol class="sizes">
+  		<li id='thin' class="thin"></li>
+  		<li id='thick' class="thick"></li>
+  	</ol>
   </div>
 
 </body>
 <script src="./mein.JS"></script>
+<script src="//at.alicdn.com/t/font_942799_em5qi67wgah.js"></script>
 
 </html>
