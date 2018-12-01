@@ -24,6 +24,10 @@
     red.classList.add('active')
     green.classList.remove('active')
     blue.classList.remove('active')
+    black.classList.remove('active')
+    yellow.classList.remove('active')
+    grey.classList.remove('active')
+    pink.classList.remove('active')
   }
 
   green.onclick =function(){
@@ -32,6 +36,10 @@
     green.classList.add('active')
     red.classList.remove('active')
     blue.classList.remove('active')
+    black.classList.remove('active')
+    yellow.classList.remove('active')
+    grey.classList.remove('active')
+    pink.classList.remove('active')
   }
   blue.onclick =function(){
     context.fillStyle='blue'
@@ -39,6 +47,54 @@
     blue.classList.add('active')
     red.classList.remove('active')
     green.classList.remove('active')
+    black.classList.remove('active')
+    yellow.classList.remove('active')
+    grey.classList.remove('active')
+    pink.classList.remove('active')
+  }
+  black.onclick =function(){
+    context.fillStyle='black'
+    context.strokeStyle ='black'
+    blue.classList.remove('active')
+    red.classList.remove('active')
+    green.classList.remove('active')
+    black.classList.add('active')
+    yellow.classList.remove('active')
+    grey.classList.remove('active')
+    pink.classList.remove('active')
+  }
+  yellow.onclick =function(){
+    context.fillStyle='yellow'
+    context.strokeStyle ='yellow'
+    blue.classList.remove('active')
+    red.classList.remove('active')
+    green.classList.remove('active')
+    black.classList.remove('active')
+    yellow.classList.add('active')
+    grey.classList.remove('active')
+    pink.classList.remove('active')
+  }
+  grey.onclick =function(){
+    context.fillStyle='grey'
+    context.strokeStyle ='grey'
+    blue.classList.remove('active')
+    red.classList.remove('active')
+    green.classList.remove('active')
+    black.classList.remove('active')
+    yellow.classList.remove('active')
+    grey.classList.add('active')
+    pink.classList.remove('active')
+  }
+  pink.onclick =function(){
+    context.fillStyle='pink'
+    context.strokeStyle ='pink'
+    blue.classList.remove('active')
+    red.classList.remove('active')
+    green.classList.remove('active')
+    black.classList.remove('active')
+    yellow.classList.remove('active')
+    grey.classList.remove('active')
+    pink.classList.add('active')
   }
 
   thin.onclick = function(){

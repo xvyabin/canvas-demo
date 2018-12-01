@@ -56,6 +56,18 @@ html{
 	transition: all 0.3s;
 	border-radius: 50%;
 }
+.colors>li.black{
+	background: black;
+}
+.colors>li.grey{
+	background: grey;
+}
+.colors>li.yellow{
+	background: yellow;
+}
+.colors>li.pink{
+	background: pink;
+}
 .colors>li.red{
 	background: red;
 }
